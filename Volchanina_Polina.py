@@ -61,6 +61,6 @@ b=s[int(memos):]
 print(b+" "+a)
 print("Шаг8.Второй способ")
 print(s[2:7]+" "+s[0])
-print("hi")
+print("Это первые шаги")
 
 
