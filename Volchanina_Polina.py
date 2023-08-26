@@ -63,4 +63,13 @@ print("Шаг8.Второй способ")
 print(s[2:7]+" "+s[0])
 print("hi")
 print('изменения в студии в ветке cool')
+print("\n")
 
+print("ДЗ2.  Пишем калькулятор BMI")
+h = int(input('Введите Ваш рост: '))/100
+w = int(input('Ведите Ваш вес: '))
+imt = w/h/h
+print(f'Ваш индекс массы тела: {round(imt, 2)}')
+v = round(imt)
+L, S = 20, 50
+print(str(L) + '='*(v-L-1) + '|' + '='*(S-v-1) + str(S))
